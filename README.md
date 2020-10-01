@@ -3,19 +3,19 @@
 Every iteration has to be made with ES5 and ES6 functions :3
 
 
-##Iteration 1
+## Iteration 1
 
-###Given an array of cities, return an array with the first letter of each city’s name capitalized. You can use ES5 or ES6 syntax, whichever you feel more comfortable with at this point.
+### Given an array of cities, return an array with the first letter of each city’s name capitalized. You can use ES5 or ES6 syntax, whichever you feel more comfortable with at this point.
 
 let cities = ["miami", "barcelona", "madrid", "amsterdam", "berlin", "sao paulo", "lisbon", "mexico city", "paris"];
 
 
 
-##Iteration 2
+## Iteration 2
 
-####Imagine you are a Math teacher and you have to grade our students based on their performance on two projects (40% of final grade) and their final exam (60% of final grade).
+#### Imagine you are a Math teacher and you have to grade our students based on their performance on two projects (40% of final grade) and their final exam (60% of final grade).
 
-####So the whole class is represented as an array of objects (each object contains the data about that student), and we need to get a new array of objects, but this time the objects will contain only student´s name, and their final grade. Let´s do it.
+#### So the whole class is represented as an array of objects (each object contains the data about that student), and we need to get a new array of objects, but this time the objects will contain only student´s name, and their final grade. Let´s do it.
 
 const students = [
     {
@@ -82,9 +82,9 @@ const students = [
 
 
 
-##Iteration 3
+## Iteration 3
 
-###Given a menu of foods and their calories, calculate the average number of calories for the entire list.
+### Given a menu of foods and their calories, calculate the average number of calories for the entire list.
 
 const menu = [
     { name: "Carrots", calories: 150 },
@@ -97,9 +97,9 @@ const menu = [
 
 
 
-##Iteration 4
+## Iteration 4
 
-###We are developing our super e-commerce website; each product has some user comments and rating stored in an array called “Reviews”. Each review is an object, so we have the following structure:
+### We are developing our super e-commerce website; each product has some user comments and rating stored in an array called “Reviews”. Each review is an object, so we have the following structure:
 
 const product = {
   name: "AmazonBasics Apple Certified Lightning to USB Cable",
@@ -130,14 +130,14 @@ const product = {
   ]
 }
 
-#####Hint: We have to show the product on our website, but we do not want to show all the reviews in a first view, we only need the average rate so that other customers can see in a fast way every product rate.
+##### Hint: We have to show the product on our website, but we do not want to show all the reviews in a first view, we only need the average rate so that other customers can see in a fast way every product rate.
 
 
 
-##Iteration 5
+## Iteration 5
 
 
-###Given the following array, filter the ones who are eligible to go to bars in the USA.
+### Given the following array, filter the ones who are eligible to go to bars in the USA.
 
 var people = [
     { name: "Candice", age: 25 },
@@ -150,13 +150,13 @@ var people = [
 
 
 
-##Iteration 6
+## Iteration 6
 
-####We are working for Airbnb as developers, and we need to add a filter feature when someone is looking for a home. Imagine somebody starts their search for places in Barcelona, so we bring all the rooms available there.
+#### We are working for Airbnb as developers, and we need to add a filter feature when someone is looking for a home. Imagine somebody starts their search for places in Barcelona, so we bring all the rooms available there.
 
-####But it´s summer, and the customers who are searching for rooms want the place to have a pool. Our incredible platform will include a filter feature, so we have to work on it.
+#### But it´s summer, and the customers who are searching for rooms want the place to have a pool. Our incredible platform will include a filter feature, so we have to work on it.
 
-####Giving the following arrays of objects, let’s filter just the one with a pool.
+#### Giving the following arrays of objects, let’s filter just the one with a pool.
 
 const places = [
     {
@@ -233,9 +233,9 @@ const places = [
 
 
 
-##Iteration 7
+## Iteration 7
 
-###Given an array of numbers, filter out the ones that are not even, and are greater than 42.
+### Given an array of numbers, filter out the ones that are not even, and are greater than 42.
 
 const numbers = [1, 60, 112, 123, 100, 99, 73, 45];
 
