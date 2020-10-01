@@ -8,12 +8,17 @@ let cities = ["miami", "barcelona", "madrid", "amsterdam", "berlin", "sao paulo"
 
 //ES5 =>
 
-
-
+let capitalCities = cities.map(function(city) {
+  let cities = city.slice(1)
+  return city[0].toUpperCase() + cities;
+});
 
 //ES6 =>
 
-
+let capitalCities6 =cities.map(city => {
+  let cities = city.slice(1)
+  return city[0].toUpperCase() + cities;
+});
 
 
 
@@ -89,13 +94,25 @@ const students = [
 
 
 //ES5 =>
-
+let grades = students.map(function(student) {
+  let obj = {}
+  let finalGrade = Math.round((((student.firstProject + student.secondProject)/2)*0.4) + student.finalExam*0.6)
+   obj.name = student.name
+   obj.finalGrade = finalGrade
+  return obj
+});
 
 
 
 //ES6 =>
 
-
+let grades6 = students.map(student => {
+  let obj = {}
+  let finalGrade = Math.round((((student.firstProject + student.secondProject)/2)*0.4) + student.finalExam*0.6)
+   obj.name = student.name
+   obj.finalGrade = finalGrade
+  return obj
+});
 
 
 
@@ -120,12 +137,14 @@ const menu = [
 
 //ES5 =>
 
-
+let avgCalories = menu.reduce(function(acc, cal) {
+  return (acc + cal.calories)/menu.length
+}, 0);
 
 
 //ES6 =>
 
-
+let avgCalories6 = menu.reduce((acc, cal) => (acc + cal.calories)/menu.length, 0);
 
 
 
@@ -202,12 +221,14 @@ var people = [
 
 //ES5 =>
 
-
+let adult = people.filter(function(person) {
+  return person.age >= 21
+});
 
 
 //ES6 =>
 
-
+let adult6 = people.filter(person => person.age >= 21);
 
 
 
@@ -301,13 +322,15 @@ const places = [
 
 
 //ES5 =>
-
+let poolTime = places.filter(function(place) {
+  return place.pool;
+});
 
 
 
 //ES6 =>
 
-
+let poolTime6 = places.filter(place => place.pool);
 
 
 
@@ -324,11 +347,13 @@ const numbers = [1, 60, 112, 123, 100, 99, 73, 45];
 
 //ES5 =>
 
-
+let number = numbers.filter(function(n) {
+  return n>42 && n%2!==0
+})
 
 
 //ES6 =>
 
 
-
+let number6 = numbers.filter(n => n>42 && n%2===0);
 
