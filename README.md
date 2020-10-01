@@ -7,7 +7,7 @@ Every iteration has to be made with ES5 and ES6 functions :3
 
 ### Given an array of cities, return an array with the first letter of each city’s name capitalized. You can use ES5 or ES6 syntax, whichever you feel more comfortable with at this point.
 
-let cities = ["miami", "barcelona", "madrid", "amsterdam", "berlin", "sao paulo", "lisbon", "mexico city", "paris"];
+`let cities = ["miami", "barcelona", "madrid", "amsterdam", "berlin", "sao paulo", "lisbon", "mexico city", "paris"];`
 
 
 
@@ -23,7 +23,7 @@ let cities = ["miami", "barcelona", "madrid", "amsterdam", "berlin", "sao paulo"
 
 
 
-const students = [ <br>
+`const students = [ <br>
     {<br>
       name: "Tony Parker",<br>
       firstProject: 80,<br>
@@ -84,7 +84,7 @@ const students = [ <br>
       secondProject: 72,<br>
       finalExam: 65<br>
     }<br>
-]<br>
+]<br>`
 
 
 
@@ -92,13 +92,13 @@ const students = [ <br>
 
 ### Given a menu of foods and their calories, calculate the average number of calories for the entire list.
 
-const menu = [<br>
+`const menu = [<br>
     { name: "Carrots", calories: 150 },<br>
     { name: "Steak", calories: 350 },<br>
     { name: "Broccoli", calories: 120 },<br>
     { name: "Chicken", calories: 250 },<br>
     { name: "Pizza", calories: 520 }<br>
-  ];<br>
+  ];<br>`
 
 
 
@@ -107,7 +107,7 @@ const menu = [<br>
 
 ### We are developing our super e-commerce website; each product has some user comments and rating stored in an array called “Reviews”. Each review is an object, so we have the following structure:
 
-const product = {<br>
+`const product = {<br>
   name: "AmazonBasics Apple Certified Lightning to USB Cable",<br>
   price: 7.99,<br>
   manufacter: "Amazon",<br>
@@ -134,7 +134,7 @@ const product = {<br>
       rate: 2<br>
     },<br>
   ]<br>
-}<br>
+}<br>`
 
 ##### Hint: We have to show the product on our website, but we do not want to show all the reviews in a first view, we only need the average rate so that other customers can see in a fast way every product rate.
 
@@ -145,14 +145,14 @@ const product = {<br>
 
 ### Given the following array, filter the ones who are eligible to go to bars in the USA.
 
-var people = [<br>
+`var people = [<br>
     { name: "Candice", age: 25 },<br>
     { name: "Tammy", age: 30 },<br>
     { name: "Allen", age: 20 },<br>
     { name: "Nettie", age: 21 },<br>
     { name: "Stuart", age: 17 },<br>
     { name: "Bill", age: 19 }<br>
-  ];<br>
+  ];<br>`
 
 
 
@@ -164,7 +164,7 @@ var people = [<br>
 
 #### Giving the following arrays of objects, let’s filter just the one with a pool.
 
-const places = [<br>
+`const places = [<br>
     {<br>
      title: "Awesome Suite 20' away from la Rambla",<br>
      price: 200,<br>
@@ -235,7 +235,7 @@ const places = [<br>
      pool: true,<br>
      garage: true<br>
     }<br>
-   ]<br>
+   ]<br>`
 
 
 
@@ -243,5 +243,5 @@ const places = [<br>
 
 ### Given an array of numbers, filter out the ones that are not even, and are greater than 42.
 
-const numbers = [1, 60, 112, 123, 100, 99, 73, 45];
+`const numbers = [1, 60, 112, 123, 100, 99, 73, 45];`
 
