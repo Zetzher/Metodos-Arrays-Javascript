@@ -11,74 +11,80 @@ let cities = ["miami", "barcelona", "madrid", "amsterdam", "berlin", "sao paulo"
 
 
 
+
+
+
+
 ## Iteration 2
 
 #### Imagine you are a Math teacher and you have to grade our students based on their performance on two projects (40% of final grade) and their final exam (60% of final grade).
 
 #### So the whole class is represented as an array of objects (each object contains the data about that student), and we need to get a new array of objects, but this time the objects will contain only student´s name, and their final grade. Let´s do it.
 
-const students = [
-    {
-      name: "Tony Parker",
-      firstProject: 80,
-      secondProject: 75,
-      finalExam: 90
-    },
-    {
-      name: "Marc Barchini",
-      firstProject: 84,
-      secondProject: 65,
-      finalExam: 65
-    },
-    {
-      name: "Claudia Lopez",
-      firstProject: 45,
-      secondProject: 95,
-      finalExam: 99
-    },
-    {
-      name: "Alvaro Briattore",
-      firstProject: 82,
-      secondProject: 92,
-      finalExam: 70
-    },
-    {
-      name: "Isabel Ortega",
-      firstProject: 90,
-      secondProject: 32,
-      finalExam: 85
-    },
-    {
-      name: "Francisco Martinez",
-      firstProject: 90,
-      secondProject: 55,
-      finalExam: 78
-    },
-    {
-      name: "Jorge Carrillo",
-      firstProject: 83,
-      secondProject: 77,
-      finalExam: 90
-    },
-    {
-      name: "Miguel López",
-      firstProject: 80,
-      secondProject: 75,
-      finalExam: 75
-    },
-    {
-      name: "Carolina Perez",
-      firstProject: 85,
-      secondProject: 72,
-      finalExam: 67
-    },
-    {
-      name: "Ruben Pardo",
-      firstProject: 89,
-      secondProject: 72,
-      finalExam: 65
-    }
-]
+
+
+const students = [ <br>
+    {<br>
+      name: "Tony Parker",<br>
+      firstProject: 80,<br>
+      secondProject: 75,<br>
+      finalExam: 90<br>
+    },<br>
+    {<br>
+      name: "Marc Barchini",<br>
+      firstProject: 84,<br>
+      secondProject: 65,<br>
+      finalExam: 65<br>
+    },<br>
+    {<br>
+      name: "Claudia Lopez",<br>
+      firstProject: 45,<br>
+      secondProject: 95,<br>
+      finalExam: 99<br>
+    },<br>
+    {<br>
+      name: "Alvaro Briattore",<br>
+      firstProject: 82,<br>
+      secondProject: 92,<br>
+      finalExam: 70<br>
+    },<br>
+    {<br>
+      name: "Isabel Ortega",<br>
+      firstProject: 90,<br>
+      secondProject: 32,<br>
+      finalExam: 85<br>
+    },<br>
+    {<br>
+      name: "Francisco Martinez",<br>
+      firstProject: 90,<br>
+      secondProject: 55,<br>
+      finalExam: 78<br>
+    },<br>
+    {<br>
+      name: "Jorge Carrillo",<br>
+      firstProject: 83,<br>
+      secondProject: 77,<br>
+      finalExam: 90<br>
+    },<br>
+    {<br>
+      name: "Miguel López",<br>
+      firstProject: 80,<br>
+      secondProject: 75,<br>
+      finalExam: 75<br>
+    },<br>
+    {v
+      name: "Carolina Perez",<br>
+      firstProject: 85,<br>
+      secondProject: 72,<br>
+      finalExam: 67<br>
+    },<br>
+    {<br>
+      name: "Ruben Pardo",<br>
+      firstProject: 89,<br>
+      secondProject: 72,<br>
+      finalExam: 65v
+    }<br>
+]<br>
 
 
 
