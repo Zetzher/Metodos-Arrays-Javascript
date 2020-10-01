@@ -23,7 +23,7 @@ Every iteration has to be made with ES5 and ES6 functions :3
 
 
 
-``const students = [ 
+const students = [ <br>
     {<br>
       name: "Tony Parker",<br>
       firstProject: 80,<br>
@@ -84,7 +84,7 @@ Every iteration has to be made with ES5 and ES6 functions :3
       secondProject: 72,<br>
       finalExam: 65<br>
     }<br>
-]<br>``
+]<br>
 
 
 
@@ -92,13 +92,13 @@ Every iteration has to be made with ES5 and ES6 functions :3
 
 ### Given a menu of foods and their calories, calculate the average number of calories for the entire list.
 
-`const menu = [<br>
+const menu = [<br>
     { name: "Carrots", calories: 150 },<br>
     { name: "Steak", calories: 350 },<br>
     { name: "Broccoli", calories: 120 },<br>
     { name: "Chicken", calories: 250 },<br>
     { name: "Pizza", calories: 520 }<br>
-  ];<br>`
+  ];<br>
 
 
 
@@ -107,12 +107,12 @@ Every iteration has to be made with ES5 and ES6 functions :3
 
 ### We are developing our super e-commerce website; each product has some user comments and rating stored in an array called “Reviews”. Each review is an object, so we have the following structure:
 
-`const product = {<br>
-  name: "AmazonBasics Apple Certified Lightning to USB Cable",<br>
-  price: 7.99,<br>
-  manufacter: "Amazon",<br>
-  reviews:<br>
-  [<br>
+`const product = {`<br>
+  `name: "AmazonBasics Apple Certified Lightning to USB Cable",`<br>
+ `price: 7.99,`<br>
+  `manufacter: "Amazon",`<br>
+  `reviews:`<br>
+  `[<br>
     {  user: "Pavel Nedved",<br>
       comments: "It was really usefull, strongly recommended",<br>
       rate: 4<br>
