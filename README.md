@@ -82,7 +82,7 @@ const students = [ <br>
       name: "Ruben Pardo",<br>
       firstProject: 89,<br>
       secondProject: 72,<br>
-      finalExam: 65v
+      finalExam: 65<br>
     }<br>
 ]<br>
 
