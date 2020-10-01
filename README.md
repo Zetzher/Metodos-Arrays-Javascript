@@ -23,7 +23,7 @@ Every iteration has to be made with ES5 and ES6 functions :3
 
 
 
-`const students = [ <br>
+`const students = [ 
     {<br>
       name: "Tony Parker",<br>
       firstProject: 80,<br>
