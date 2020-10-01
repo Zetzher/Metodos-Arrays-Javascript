@@ -92,13 +92,13 @@ const students = [ <br>
 
 ### Given a menu of foods and their calories, calculate the average number of calories for the entire list.
 
-const menu = [
-    { name: "Carrots", calories: 150 },
-    { name: "Steak", calories: 350 },
-    { name: "Broccoli", calories: 120 },
-    { name: "Chicken", calories: 250 },
-    { name: "Pizza", calories: 520 }
-  ];
+const menu = [<br>
+    { name: "Carrots", calories: 150 },<br>
+    { name: "Steak", calories: 350 },<br>
+    { name: "Broccoli", calories: 120 },<br>
+    { name: "Chicken", calories: 250 },<br>
+    { name: "Pizza", calories: 520 }<br>
+  ];<br>
 
 
 
@@ -107,34 +107,34 @@ const menu = [
 
 ### We are developing our super e-commerce website; each product has some user comments and rating stored in an array called “Reviews”. Each review is an object, so we have the following structure:
 
-const product = {
-  name: "AmazonBasics Apple Certified Lightning to USB Cable",
-  price: 7.99,
-  manufacter: "Amazon",
-  reviews:
-  [
-    {  user: "Pavel Nedved",
-      comments: "It was really usefull, strongly recommended",
-      rate: 4
-    },
-    {  user: "Alvaro Trezeguet",
-      comments: "It lasted 2 days",
-      rate: 1
-    },
-    {  user: "David Recoba",
-      comments: "Awesome",
-      rate: 5
-    },
-    {  user: "Jose Romero",
-      comments: "Good value for money",
-      rate: 4
-    },
-    {  user: "Antonio Cano",
-      comments: "It broked really fast",
-      rate: 2
-    },
-  ]
-}
+const product = {<br>
+  name: "AmazonBasics Apple Certified Lightning to USB Cable",<br>
+  price: 7.99,<br>
+  manufacter: "Amazon",<br>
+  reviews:<br>
+  [<br>
+    {  user: "Pavel Nedved",<br>
+      comments: "It was really usefull, strongly recommended",<br>
+      rate: 4<br>
+    },<br>
+    {  user: "Alvaro Trezeguet",<br>
+      comments: "It lasted 2 days",<br>
+      rate: 1<br>
+    },<br>
+    {  user: "David Recoba",<br>
+      comments: "Awesome",<br>
+      rate: 5<br>
+    },<br>
+    {  user: "Jose Romero",<br>
+      comments: "Good value for money",<br>
+      rate: 4<br>
+    },<br>
+    {  user: "Antonio Cano",<br>
+      comments: "It broked really fast",<br>
+      rate: 2<br>
+    },<br>
+  ]<br>
+}<br>
 
 ##### Hint: We have to show the product on our website, but we do not want to show all the reviews in a first view, we only need the average rate so that other customers can see in a fast way every product rate.
 
@@ -145,14 +145,14 @@ const product = {
 
 ### Given the following array, filter the ones who are eligible to go to bars in the USA.
 
-var people = [
-    { name: "Candice", age: 25 },
-    { name: "Tammy", age: 30 },
-    { name: "Allen", age: 20 },
-    { name: "Nettie", age: 21 },
-    { name: "Stuart", age: 17 },
-    { name: "Bill", age: 19 }
-  ];
+var people = [<br>
+    { name: "Candice", age: 25 },<br>
+    { name: "Tammy", age: 30 },<br>
+    { name: "Allen", age: 20 },<br>
+    { name: "Nettie", age: 21 },<br>
+    { name: "Stuart", age: 17 },<br>
+    { name: "Bill", age: 19 }<br>
+  ];<br>
 
 
 
@@ -164,78 +164,78 @@ var people = [
 
 #### Giving the following arrays of objects, let’s filter just the one with a pool.
 
-const places = [
-    {
-     title: "Awesome Suite 20' away from la Rambla",
-     price: 200,
-     type: "Private Room",
-     pool: true,
-     garage: false
+const places = [<br>
+    {<br>
+     title: "Awesome Suite 20' away from la Rambla",<br>
+     price: 200,<br>
+     type: "Private Room",<br>
+     pool: true,<br>
+     garage: false<br>
+    },<br>
+    {<br>
+     title: "Private apartment",<br>
+     price: 190,<br>
+     type: "Entire Place",<br>
+     pool: true,<br>
+     garage: true<br>
+    },<br>
+    {<br>
+     title: "Apartment with awesome views",<br>
+     price: 400,<br>
+     type: "Entire Place",<br>
+     pool: false,<br>
+     garage: false<br>
+    },<br>
+    {<br>
+     title: "Apartment in la Rambla",<br>
+     price: 150,<br>
+     type: "Private Room",<br>
+     pool: false,<br>
+     garage: true<br>
+    },<br>
+    {<br>
+     title: "Comfortable place in Barcelona´s center",<br>
+     price: 390,<br>
+     type: "Entire place",<br>
+     pool: true,<br>
+     garage: true<br>
+    },<br>
+    {<br>
+     title: "Room near Sagrada Familia",<br>
+     price: 170,<br>
+     type: "Private Room",<br>
+     pool: false,<br>
+     garage: false<br>
+    },<br>
+    {<br>
+     title: "Great house next to Camp Nou",<br>
+     price: 140,<br>
+     type: "Entire place",<br>
+     pool: true,<br>
+     garage: true<br>
     },
     {
-     title: "Private apartment",
-     price: 190,
-     type: "Entire Place",
-     pool: true,
-     garage: true
-    },
-    {
-     title: "Apartment with awesome views",
-     price: 400,
-     type: "Entire Place",
-     pool: false,
-     garage: false
-    },
-    {
-     title: "Apartment in la Rambla",
-     price: 150,
-     type: "Private Room",
-     pool: false,
-     garage: true
-    },
-    {
-     title: "Comfortable place in Barcelona´s center",
-     price: 390,
-     type: "Entire place",
-     pool: true,
-     garage: true
-    },
-    {
-     title: "Room near Sagrada Familia",
-     price: 170,
-     type: "Private Room",
-     pool: false,
-     garage: false
-    },
-    {
-     title: "Great house next to Camp Nou",
-     price: 140,
-     type: "Entire place",
-     pool: true,
-     garage: true
-    },
-    {
-     title: "New apartment with 2 beds",
-     price: 2000,
-     type: "Entire place",
-     pool: false,
-     garage: true
-    },
-    {
-     title: "Awesome Suite",
-     price: 230,
-     type: "Private Room",
-     pool: false,
-     garage: false
-    },
-    {
-     title: "Apartment 10' from la Rambla",
-     price: 930,
-     type: "Entire place",
-     pool: true,
-     garage: true
-    }
-   ]
+     title: "New apartment with 2 beds",<br>
+     price: 2000,<br>
+     type: "Entire place",<br>
+     pool: false,<br>
+     garage: true<br>
+    },<br>
+    {<br>
+     title: "Awesome Suite",<br>
+     price: 230,<br>
+     type: "Private Room",<br>
+     pool: false,<br>
+     garage: false<br>
+    },<br>
+    {<br>
+     title: "Apartment 10' from la Rambla",<br>
+     price: 930,<br>
+     type: "Entire place",<br>
+     pool: true,<br>
+     garage: true<br>
+    }<br>
+   ]<br>
 
 
 
